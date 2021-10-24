@@ -72,6 +72,8 @@
 
   &:hover {
     background-color: $color-primary;
+    padding: 0.6rem;
+    border-radius: 5px;
     color: $color-white;
     box-shadow: 0 1rem 2rem rgba($color-black, 0.15);
     transform: translateY(-0.2rem);
@@ -79,6 +81,10 @@
     -moz-transform: translateY(-0.2rem);
     -ms-transform: translateY(-0.2rem);
     -o-transform: translateY(-0.2rem);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
   }
 
   &:active {
