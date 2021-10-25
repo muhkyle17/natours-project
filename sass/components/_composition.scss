@@ -47,14 +47,5 @@
 
   &:hover &__photo:not(:hover) {
     transform: scale(0.95);
-    border-radius: none;
-    -webkit-transform: scale(0.95);
-    -moz-transform: scale(0.95);
-    -ms-transform: scale(0.95);
-    -o-transform: scale(0.95);
-    -webkit-border-radius: none;
-    -moz-border-radius: none;
-    -ms-border-radius: none;
-    -o-border-radius: none;
   }
 }
